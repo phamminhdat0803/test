@@ -1,0 +1,26 @@
+{
+  "name": "affiliate-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "googleapis": "^127.0.0",
+    "tailwindcss-animate": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
