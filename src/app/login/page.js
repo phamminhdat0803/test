@@ -2,8 +2,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
-export const metadata = { title: 'Login' };
-
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

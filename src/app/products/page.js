@@ -2,8 +2,6 @@
 import { useEffect, useState } from 'react';
 import ProductCard from '@/components/ProductCard';
 
-export const metadata = { title: 'Products' };
-
 export default function Products() {
   const [products, setProducts] = useState([]);
 
