@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import ProductCard from '@/components/ProductCard';
 import { Button } from '@/components/ui/button';
 
-export const metadata = { title: 'Admin' };
-
 export default function Admin() {
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState({ id: '', name: '', description: '', price: '', image: '', link: '' });
